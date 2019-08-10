@@ -15,7 +15,7 @@ int main() {
 	       {
 	           if(iteration%iter == 0)
 	           {
-		     isPrime = false;
+		           isPrime = false;
 	           }
 	       }
 	       
