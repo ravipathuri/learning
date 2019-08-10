@@ -35,4 +35,5 @@ int main()
 	
    }while(iteration == 0);  
 	cout<<"smallest multiple divisible by first twenty natural numbers is "<<smallestmultiple<<endl;
+	return 0;
 }
