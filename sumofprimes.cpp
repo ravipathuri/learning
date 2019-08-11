@@ -25,9 +25,15 @@ bool isPrime(long long int samplenumber)
 
 int main()
 {
+<<<<<<< HEAD
 	long long int sumofprimes=0,samplenumber=2;
 
     for(samplenumber = 2; samplenumber <=2000000; samplenumber++)
+=======
+	long long int sumofprimes=0,samplenumber=2,limit=2000000;
+
+    for(samplenumber = 2; samplenumber <=limit; samplenumber++)
+>>>>>>> adding solution for sum of primes problem
     {
     	bool isPrimeNumber = isPrime(samplenumber);
     	if(isPrimeNumber)
